@@ -12,7 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(gazebo 11 REQUIRED)
-find_package(ignition-msgs1 REQUIRED)
+find_package(ignition-msgs5 REQUIRED)
 
 catkin_package(
  # INCLUDE_DIRS include
