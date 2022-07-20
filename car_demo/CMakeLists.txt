@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   prius_msgs
 )
 
-find_package(gazebo 9 REQUIRED)
+find_package(gazebo 11 REQUIRED)
 find_package(ignition-msgs1 REQUIRED)
 
 catkin_package(
