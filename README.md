@@ -19,20 +19,20 @@ A video and screenshots of the demo can be seen in this blog post: https://www.o
 
 First you need to build the ```car_demo``` package:
 ```
-$ mkdir -p osrf_car/src
-$ cd osrf_car/src
-$ git clone https://github.com/KshitijBhat/car_demo.git
-$ cd ..
-$ catkin_make
-$ source devel/setup.bash
+ mkdir -p osrf_car/src
+cd osrf_car/src
+ git clone https://github.com/KshitijBhat/car_demo.git
+ cd ..
+catkin_make
+ source devel/setup.bash
 ```
 Now to run the simulation:
 
 ```
-$ roslaunch car_demo demo.launch
+roslaunch car_demo demo.launch
 ```
 
 To move the car, run the following sample code:
 ```
-$ rosrun car_demo move.py
+ rosrun car_demo move.py
 ```
