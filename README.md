@@ -21,7 +21,7 @@ First you need to build the ```car_demo``` package:
 ```
  mkdir -p osrf_car/src
 cd osrf_car/src
- git clone https://github.com/KshitijBhat/car_demo.git
+ git clone https://github.com/git-suwalkaaditya/car_demo.git
  cd ..
 catkin_make
  source devel/setup.bash
